@@ -1,0 +1,39 @@
+Game Engines
+	Unity3D:			http://unity3d.com/get-unity
+		UnityLearn: 	http://unity3d.com/learn
+		Quill18Creates:	https://www.youtube.com/user/quill18creates
+
+	UnrealEngine4:		https://www.unrealengine.com/
+							(make free account first then download)
+		VideoTutorials:	https://wiki.unrealengine.com/Videos
+
+	GameMaker:			https://www.yoyogames.com/studio/download
+		
+
+
+Art tools
+	3D modeling-
+		Blender:
+			Blender Cookie:
+			Blender Guru:
+	2D art- 
+		Mischief - Free:
+
+		GIMP:
+
+		Paint.net:
+
+	Textrues- 
+		CG Textures:
+
+Programming IDE's
+	MonoDevelop(built into unity)
+
+	VisualStudio Comunity:
+
+	SublimeText:
+
+	Eclipse (Java):
+
+	Eclipse (c/c++):
+
