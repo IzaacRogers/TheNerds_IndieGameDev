@@ -1,0 +1,58 @@
+SiFi Noir
+
+Setting
+	a futuristic city in a society that tries its best to emulate the style of 1950's America
+
+Plot
+	you play a a detective who starts out working for the corrupt police force (and also the mafia). once your character realizes how bad the corruption is hurting the city, he leaves the police force and becomes a private detective. 
+
+Important notes
+	third person\first person
+
+Systems
+	City Gen System
+
+	Movement System
+		3rd/1st diff
+	Stealth System
+		3rd/1st diff
+	Cover System
+		3rd/1st diff
+	Guided Parkour System
+		3rd/1st diff
+	Weapon Weight & Visibility System
+	Inventory System
+
+	Random Nemesis System
+
+	Wheeled Car Driving System
+	Hover Car Driving System
+	
+	Hacking System
+
+	A.I. System
+
+
+3D Models
+	#if done in hudini
+		road system
+			-ally way system
+		building system
+		prop
+	#else
+
+	Roads
+		straight
+		Xroad
+		Troad
+		1/4 turn
+		1/8 turn
+
+	Buildings
+
+	Props
+		Street lights
+		trash cans
+		
+
+HAT PHYSICS!!!
