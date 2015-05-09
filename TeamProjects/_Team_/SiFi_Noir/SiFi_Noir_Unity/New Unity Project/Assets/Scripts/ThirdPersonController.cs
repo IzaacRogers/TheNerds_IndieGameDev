@@ -6,6 +6,9 @@ public class ThirdPersonController : MonoBehaviour {
     public GameObject player;
     CharacterController cc;
 
+    public GameObject tpsGraphics;
+    Animator anim;
+
     public GameObject camera;
     Camera cam;
     ThirdPersonCameraController camController;
@@ -21,21 +24,26 @@ public class ThirdPersonController : MonoBehaviour {
         cc = player.GetComponent<CharacterController>();
         camController = GetComponent<ThirdPersonCameraController>();
         cam = camera.GetComponent<Camera>();
+        anim = player.GetComponentInChildren<Animator>();
 
 	}
 
     float horizontalVel, downVel, verticalVel;
     void Update () {
 
-        speed = baseSpeed*speedMult;
+        //speed = baseSpeed*speedMult;
 
-        verticalVel = Input.GetAxis("Vertical") * speed;
+        /*
+         * verticalVel = Input.GetAxis("Vertical") * speed;
         horizontalVel = Input.GetAxis("Horizontal") * speed;
         if (!cc.isGrounded) downVel += Physics.gravity.y * Time.deltaTime;
 
         Vector3 velocity = new Vector3(horizontalVel, downVel, verticalVel);
         velocity = transform.rotation * velocity;
         cc.Move(velocity * Time.deltaTime);
+         */
+
+        anim.SetFloat("speed", Input.GetAxis("Vertical"));
 
 	}
 }
