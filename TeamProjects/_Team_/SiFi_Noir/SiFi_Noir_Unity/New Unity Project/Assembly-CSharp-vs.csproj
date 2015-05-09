@@ -46,7 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\ThirdPersonCameraController.cs" />
+     <Compile Include="Assets\Scripts\ThirdPersonController.cs" />
+     <None Include="Assets\_Imports_\_IMPORTS_.txt" />
+     <None Include="Assets\Models\_MODELS_.txt" />
+     <None Include="Assets\Prefabs\New Text Document.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -9,8 +9,6 @@ public class FirstPersonController : MonoBehaviour {
     public float speedMult;
     public float mouseSensitivity;
 
-    public string forwardInput, backwardInput;
-
     CharacterController cc;
 
     private float speed;
