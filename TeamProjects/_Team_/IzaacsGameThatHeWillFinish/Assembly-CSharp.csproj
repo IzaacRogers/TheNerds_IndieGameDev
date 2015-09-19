@@ -46,10 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Prototyping\Inventory.cs" />
-     <Compile Include="Assets\Prototyping\Items.cs" />
-     <Compile Include="Assets\Prototyping\PlayerInventory.cs" />
-     <Compile Include="Assets\Scripts\ColonyStation_Scripts\LazerBeam.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
+     <Compile Include="Assets\Scripts\Inventory\ItemTypes.cs" />
+     <Compile Include="Assets\Scripts\Inventory\PlayerInventory.cs" />
+     <Compile Include="Assets\Scripts\Misc\ColonyStation_Scripts\LazerBeam.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
      <Compile Include="Assets\Scripts\util\FlyCam.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
