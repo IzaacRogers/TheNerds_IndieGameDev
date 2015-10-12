@@ -1,9 +1,0 @@
-Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-2-4040
-While reading command: Could not open pipe: 2 second wait timed out.
-The system cannot find the file specified.
-
-
-Quitting shader compiler process
-
-Crashed!
